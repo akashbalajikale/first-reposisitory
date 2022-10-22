@@ -1,0 +1,89 @@
+*{
+	 padding:0;
+	 margin:0;
+	 box-sizing:border-box;
+ }
+ .px-50{
+	 padding:0 24px;
+ }
+ .mb-70{
+	 margin-bottom:70px;
+ }
+ .text-center{
+	 text-align:center;
+ }
+ .offset-2{
+	 margin-left: calc(100% * 2 / 12);
+ }
+ .offset-1{
+	 margin-left: calc(100% * 1 / 12);
+ }
+ .container{
+	 width:1100px;
+	 margin:0 auto;
+ }
+ a:link, a:visited{
+	 text-decoration:none;
+ }
+ .row ,.row::after, .row::before{
+	 display: table;
+	 clear: both;
+	 width:100%;
+ }
+ 
+ .col2, .col5, .col10, .col3, .col4, .col9, .col12, .col1{
+	 padding:0 15px;
+	 float: left;
+ }
+ /* .div[class^="col"]{ */
+	  /* padding:0 15px; */
+	 /* float: left; */
+ /* } */
+  .col1{
+	  width: calc(100% * 1 / 12);
+  }
+  .col2{
+	  width: calc(100% * 2 / 12);
+  }
+  .col3{
+	  width: calc(100% * 3 / 12);
+  }
+  .col4{
+	  width: calc(100% * 4 / 12);
+  }
+  .col9{
+	  width: calc(100% * 9 / 12);
+  }
+  .col5{
+	  width: calc(100% * 5 / 12);
+  }
+  .col10{
+	  width: calc(100% * 10 / 12);
+  }
+  .col12{
+	  width: calc(100% * 12 / 12);
+  }
+  
+  .pri{
+	  font-size:32px;
+	  font-weight:bold;
+	  color:#010101;
+	  margin-bottom:30px;
+	  font-family: 'Montserrat', sans-serif;
+  }
+  .sec{
+	  font-size:20px;
+	  font-weight:bold;
+	  color:#313841;
+	  margin-bottom:26px;
+	  font-family: 'Montserrat', sans-serif;
+  }
+  .para{
+	  font-size:16px;
+	  font-weight:bold;
+	  color:#555555;
+	  margin-bottom:40px;
+  }
+  .ipad{
+	  padding-left:34px;
+  }

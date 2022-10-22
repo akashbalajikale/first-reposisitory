@@ -1,0 +1,140 @@
+ body{
+	 
+    font-family: 'Roboto', sans-serif; 	 
+ }
+ /* //======== heroimage ========// */
+ 
+ .heroimage{
+	 background-color:lightblue;
+	 padding:60px 0 110px 0;	 
+ }
+ 
+ 
+ .navbar{
+	 list-style:none;
+	 
+ }
+ .navbar li{
+	display:inline-block;
+	margin-left:16px;
+    min-width:118px;	
+ }
+ .navbar li:last-child{
+	 margin-right:0 !important;
+ }
+ 
+ .navbar a{
+	 font-weight:bold;
+	 font-size:22px;
+	 color:#010101;
+	 padding:18px;
+	 display:inline-block;
+	 text-transform:capitalize;  
+ }
+ .navbar a:hover, .navbar a:focus, .navbar a:active{
+	 font-weight:lighter;
+ }
+ .inspire{
+	 margin-top:70px;
+ }
+ 
+ .icon{
+	 list-style:none;
+ }
+ .icon li{
+	 display:inline-block;
+	 margin-right:35px;
+ }
+ .icon a i{
+	 font-size:42px;
+	 color:black;
+ }
+ 
+ 
+ /* //======== features ========// */
+ 
+ .feature{
+	 padding:117px 0 166px 0;
+	 background-color:#ffffff;
+ }
+ .thumbicon i{
+	 font-size:40px;
+ }
+ .thumbinfo h3{
+	 font-size:22px;
+	 color:#010101;
+	 margin-bottom:15px;
+	 font-family: 'Montserrat', sans-serif;
+ }
+ .thumbinfo p{
+	 font-size:16px;
+	 color:#898989; 
+ }
+ .feature .para{
+	 margin-bottom:90px;
+ }
+ .mb-90{
+	 margin-bottom:90px;
+ }
+ 
+ /* //======== Intouch ========// */
+ 
+ .intouch{
+	 padding:90px 0 180px 0;
+	 background-color:#010101;
+ }
+ .keep{  
+	 margin:0 40px;
+ }
+ 
+ .intouch .pri{
+	 color:#fcdb00;
+ }
+ .intouch .para{
+	 color:#898989;
+ }
+ .email{
+	 height:50px;
+	 width: calc(100% - 145px);
+	 margin-right:10px;
+	  border-radius:5px;
+	  padding:25px;
+ }
+ .btn{
+	 height:50px;
+	 width:125px;
+	 background-color:#fcdb00;
+	 text-transform:uppercase;
+	 cursor:pointer;
+	 font-weight:bold;
+	 border-radius:5px;
+ }
+ .mb-78{
+	 margin-bottom:78px;
+ }
+ 
+ .socialicon li{
+	 display:inline-block;
+	 margin-right:25px;
+ }
+ .mb-130{
+	 margin-bottom:130px;
+ }
+ .socialicon li i{
+	 font-size:35px;
+	 color:#fcdb00;
+ }
+ 
+ .socialicon{
+	 margin-bottom:132px;
+ }
+  .footerlist{
+	   list-style:none;
+  }
+  .footerlist li, .footerlist a{
+	  color:#ffffff;
+	  text-decoration:none;
+	  
+  }
+  
+ 
